@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Black Panther: Wakanda Forever",
+    "slug": "wakanda-forever",
+    "background_url": "https://i.imgur.com/XkzLgLX.jpg",
+    "poster_url": "https://i.imgur.com/fakeposter.jpg",
+    "description": "Nữ hoàng Ramonda, Shuri, M’Baku... tạo ra một con đường mới cho Wakanda.",
+    "genres": ["Hành Động", "Phiêu Lưu", "Viễn Tưởng"],
+    "release_date": "Tháng 10 Ngày 11 Năm 2022",
+    "nation": "Mỹ",
+    "director": "Ryan Coogler",
+    "duration": "161 phút",
+    "cast": "Letitia Wright, Lupita Nyong'o, Danai Gurira, Angela Bassett",
+    "video_url": "https://vip.opstream16.com/share/018a6e33594cb40f782e50f71cf3c87f"
+  },
+  {
+    "title": "Người Nhện: Du Hành Vũ Trụ Nhện",
+    "slug": "nguoi-nhen-du-hanh-vu-tru-nhen",
+    "background_url": "https://i.imgur.com/SpiderManBackground.jpg",
+    "poster_url": "https://i.imgur.com/SpiderManPoster.jpg",
+    "description": "Miles Morales bước vào một cuộc phiêu lưu mới trong đa vũ trụ.",
+    "genres": ["Hoạt Hình", "Phiêu Lưu", "Hành Động"],
+    "release_date": "Tháng 6 Ngày 2 Năm 2023",
+    "nation": "Mỹ",
+    "director": "Joaquim Dos Santos",
+    "duration": "140 phút",
+    "cast": "Shameik Moore, Hailee Steinfeld, Oscar Isaac",
+    "video_url": "https://vip.opstream11.com/share/425e4714036e70b93d1683fc33b757e6"
+  }
+]

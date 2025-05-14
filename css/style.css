@@ -1,0 +1,1055 @@
+html,body{
+    height: 100%; 
+    margin: 0;
+}
+body {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1f1e1e;
+    color: #ffffff;
+    margin-bottom: 300px;
+    overflow-x: hidden;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+nav {
+    width: 80%;
+    margin: 0 auto;
+}
+header{
+    background-color: #333;
+
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.a:hover {
+    color: #3f3e3e;
+}
+/*-------------------------------menu---------------------------------*/
+.menu_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.menu_top .logo-search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.menu_top .logo-search form {
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    width: 400px; 
+    height: 30px;
+    
+}
+
+.menu_top .logo-search input {
+    width: 400px;
+    height: 100%;
+    border: none;
+    border-radius: 30px 0 0 30px;
+    padding: 0 10px;
+    margin-top: 15px;
+}
+.menu_top .logo-search button {
+    width: 10%;
+    height: 100%;
+    border: none;
+    border-radius: 0 30px 30px 0;
+    background-color: #555;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+
+}
+.menu_top .logo-search img {
+    width: 50px;
+    height: auto;
+}
+
+.menu_top .logo-search img {
+    margin-right: 10px;
+}
+
+.menu_top .login {
+    display: flex;
+    gap: 10px;
+}
+
+.menu_middle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+}
+
+.menu_middle ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu_middle ul a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    transition: transform 0.3s ease;
+    font-size: 18px;
+}
+
+.menu_middle ul a:hover {
+    background-color: #444;
+    transform: scale(1.1);
+}
+/*sub menu*/
+
+.sub_menu_content {
+    display: none;
+    position: absolute;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: #252525;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+    padding: 10px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.sub_menu:hover .sub_menu_content {
+    display: flex;
+}
+
+.sub_menu_content a {
+    padding: 8px 16px;
+    text-decoration: none;
+    display: block;
+    background-color: #252525;
+    border-right: 1px solid #ddd;
+    flex: 1 1 auto;
+    min-width: 160px;
+}
+
+.sub_menu_content a:hover {
+    background-color: #2c2b2b;
+}
+/*sub menu end*/
+/*dropdown for user*/
+.user-dropdown {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.user-dropdown .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  min-width: 100px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.user-dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.user-dropdown .dropdown-content a {
+  padding: 10px;
+  display: block;
+  color: #000;
+  text-decoration: none;
+}
+
+.user-dropdown .dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+/*menu middle end*/
+/*----------------------------menu end------------------------------*/
+/*--------------------------body content----------------------------*/
+
+/*popular container*/
+.popular-container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #333;
+}
+.swiper-button-next, .swiper-button-prev{
+    color: var(--text-color);
+    font-size: 18px !important;
+    font-weight: 700;
+}
+/*title popular*/
+.heading{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8 14px;
+    background-color: #333;
+}
+.heading-title{
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 0px;
+    position: relative;
+    padding-left: 20px;
+    line-height: 1;
+    
+}
+.heading-title::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 5px;
+    height: 100%;
+    background-color: #ff0000;
+}
+/*title popular end*/
+/* Swiper styles */
+.swiper-wrapper {
+    width: 80%;
+    display: flex;
+}
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+.movie-box{
+    position: relative;
+    width: 100%;
+    height: 380px;
+    margin: 0;
+    overflow: hidden;
+}
+.movie-box:hover{
+    background-color: #444;
+    transform: scale(1.1);
+    transition: transform 0.5s ease, background-color 0.6s ease;
+}
+.movies-box-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.movie-box .box-text{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 14px;
+    background: linear-gradient(0deg, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0) 100%);
+    overflow: hidden;
+}
+.movie-container{
+    width: 80%;
+    margin: 0 auto; 
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #333;
+}
+.movies-content{
+    margin: 0 auto;
+    width: 95%;
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(198px, 1fr));
+    gap: 10px; 
+}
+.next-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    margin-bottom: 100px;
+}
+.next-btn{
+    background-color: #252525;
+    color: var(--text-color);
+    padding: 10px 20px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+.next-btn:hover{
+    background-color: #444;
+    color: #fff;
+    transition: 0.3s all linear;
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.pagination button {
+    padding: 10px 20px;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.pagination button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.pagination button:hover:not(:disabled) {
+    background-color: #cc0000;
+}
+
+.page-info {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+/*-----------------------body content end-----------------------*/
+/*---------------------login_register Form----------------------*/
+/* Container chính của form */
+form {
+    background-color: #333; /* Màu nền tối */
+    padding: 20px 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+/* Nhãn cho các trường nhập liệu */
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #ddd;
+}
+
+/* Trường nhập liệu */
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background-color: #222;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+/* Hiệu ứng khi focus vào trường nhập liệu */
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form input[type="password"]:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Dòng thông báo lỗi hoặc trạng thái */
+#message-line {
+    color: #ff4d4d; /* Màu đỏ cho thông báo lỗi */
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+/* Nút chung */
+form .button-default {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* Nút đăng nhập */
+form .bg-red {
+    width: 200px;
+    background-color: #ff4d4d;
+    color: #fff;
+    margin: 10px auto; /* Căn giữa theo chiều ngang */
+    padding: 10px 20px;
+    display: block; /* Đảm bảo nút là khối để căn giữa */
+    text-align: center;
+}
+
+form .bg-red:hover {
+    background-color: #cc0000;
+}
+
+/* Nút đăng ký */
+form .bg-green {
+    background-color: #28a745;
+    color: #fff;
+    margin: 10px auto; /* Căn giữa theo chiều ngang */
+    padding: 10px 20px;
+    display: block; /* Đảm bảo nút là khối để căn giữa */
+    text-align: center;
+}
+
+form .bg-green:hover {
+    background-color: #218838;
+}
+form .bg-green-register {
+    background-color: #28a745;
+    color: #fff;
+    margin: 10px auto; /* Căn giữa theo chiều ngang */
+    padding: 10px 20px;
+    display: block; /* Đảm bảo nút là khối để căn giữa */
+    text-align: center;
+}
+form .bg-green-register:hover {
+    background-color: #218838;
+}
+
+
+form a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+form a:hover {
+    text-decoration: underline;
+}
+
+/* Căn chỉnh flexbox */
+.flex {
+    display: flex;
+}
+
+.flex-hozi-center {
+    justify-content: center;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+/* Khoảng cách giữa các phần tử */
+.margin-0-10 {
+    margin: 0 10px;
+}
+
+.margin-5-0 {
+    margin: 5px 0;
+}
+
+.padding-10-20 {
+    padding: 10px 20px;
+}
+/*-------------------------Movies page main----------------------*/
+.play-container {
+    width: 80%;
+    max-width: 1200px;
+    position: relative;
+    min-height: 540px;
+    margin: 1rem auto 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+}
+
+/* Movie Title Overlay */
+.play-container .play-text {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    z-index: 2;
+    padding: 0;
+    border-radius: 0;
+    box-shadow: none;
+    text-align: left;
+}
+
+.play-container .play-text h2 {
+    font-size: 2rem; /* Adjust the font size for the title */
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Add a shadow to the text for better readability */
+    margin: 0;
+    padding: 0;
+}
+
+/* Optional: Rating and Tags Styling */
+.play-container .play-text .rating {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #ffd700; /* Gold color for stars */
+}
+
+.play-container .play-text .tags {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+/* Individual Tag Styling */
+.play-container {
+    width: 100%; /* Ensure it takes full width of its parent */
+    max-width: 1200px;
+    position: relative;
+    margin: 10px auto ;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    overflow: hidden; /* Ensure content stays inside the container */
+    aspect-ratio: 16 / 9; /* Maintain a 16:9 aspect ratio */
+}
+.play-container .play-text a i  {
+    font-size: 1.5rem; 
+    margin-left: 10px;
+    vertical-align: middle;
+    transition: transform 0.3s ease;
+}
+.play-container .play-text a:hover h2{
+    transform: scale(1.1);
+}
+
+.play-container .play-text a:hover  i{
+    transform: scale(1.2);
+}
+.movie-decription {
+    width: 75%;
+    max-width: 1200px;
+    min-height: 150px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 1.5rem;
+    margin: 0 auto ;
+    color: #fff;
+    font-size: 0.9rem; 
+    line-height: 1.5; 
+    box-shadow: inset 0 4px 10px rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+}
+
+.movie-decription h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: #f9c74f;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.movie-decription .movie-details {
+    list-style: none;
+    padding: 0;
+    margin-top: 1rem;
+}
+
+.movie-summary .movie-details li {
+    margin-bottom: 5px;
+}
+li{
+    list-style: none;
+}
+.video-player {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 12px;
+}
+
+.video-player iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 10px;
+}
+/*--------------------------footer------------------------------*/
+
+.footer-dark {
+    padding:50px 0;
+    color:#f0f9ff;
+    background-color:#282d32;
+    margin-top: auto;
+  }
+  
+  .footer-dark h3 {
+    margin-top:0;
+    margin-bottom:12px;
+    font-weight:bold;
+    font-size:16px;
+  }
+  
+  .footer-dark ul {
+    padding:0;
+    list-style:none;
+    line-height:1.6;
+    font-size:14px;
+    margin-bottom:0;
+  }
+  
+  .footer-dark ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.6;
+  }
+  
+  .footer-dark ul a:hover {
+    opacity:0.8;
+  }
+  
+  @media (max-width:767px) {
+    .footer-dark .item:not(.social) {
+      text-align:center;
+      padding-bottom:20px;
+    }
+  }
+  
+  .footer-dark .item.text {
+    margin-bottom:36px;
+  }
+  
+  @media (max-width:767px) {
+    .footer-dark .item.text {
+      margin-bottom:0;
+    }
+  }
+  
+  .footer-dark .item.text p {
+    opacity:0.6;
+    margin-bottom:0;
+  }
+  
+  .footer-dark .item.social {
+    text-align:center;
+  }
+  
+  @media (max-width:991px) {
+    .footer-dark .item.social {
+      text-align:center;
+      margin-top:20px;
+    }
+  }
+  
+  .footer-dark .item.social > a {
+    font-size:20px;
+    width:36px;
+    height:36px;
+    line-height:36px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    box-shadow:0 0 0 1px rgba(255,255,255,0.4);
+    margin:0 8px;
+    color:#fff;
+    opacity:0.75;
+  }
+  
+  .footer-dark .item.social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-dark .copyright {
+    text-align:center;
+    padding-top:24px;
+    opacity:0.3;
+    font-size:13px;
+    margin-bottom:0;
+  }
+/*---------------------------------- Responsive styles---------------------------------*/
+/* Responsive Search Bar */
+@media screen and (max-width: 768px) {
+    .menu_top .logo-search {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .menu_top .logo-search form {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 90%; /* Chiếm 90% chiều rộng màn hình */
+        max-width: 400px; /* Giới hạn chiều rộng tối đa */
+        height: 40px; /* Chiều cao của thanh tìm kiếm */
+        border-radius: 20px; /* Bo góc cho form */
+        background-color: #222; /* Màu nền của form */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Hiệu ứng đổ bóng */
+        overflow: hidden; /* Đảm bảo không có phần tử nào tràn ra ngoài */
+    }
+
+    .menu_top .logo-search input {
+        width: 80%; /* Chiếm 80% chiều rộng của form */
+        height: 100%; /* Chiều cao bằng với form */
+        border: none; /* Loại bỏ viền */
+        border-radius: 20px 0 0 20px; /* Bo góc bên trái */
+        padding: 0 10px; /* Khoảng cách bên trong */
+        background-color: #333; /* Màu nền của ô nhập */
+        color: #fff; /* Màu chữ */
+        font-size: 14px; /* Kích thước chữ */
+        box-sizing: border-box; /* Đảm bảo padding không làm tăng kích thước */
+        outline: none; /* Loại bỏ viền mặc định khi focus */
+    }
+
+    .menu_top .logo-search button {
+        width: 20%; /* Chiếm 20% chiều rộng của form */
+        height: 100%; /* Chiều cao bằng với form */
+        border: none; /* Loại bỏ viền */
+        border-radius: 0 20px 20px 0; /* Bo góc bên phải */
+        background-color: #555; /* Màu nền của nút */
+        color: #fff; /* Màu chữ */
+        cursor: pointer; /* Con trỏ dạng pointer khi hover */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 16px; /* Kích thước chữ */
+        transition: background-color 0.3s ease; /* Hiệu ứng chuyển màu */
+    }
+
+    .menu_top .logo-search button:hover {
+        background-color: #777; /* Màu nền khi hover */
+    }
+
+    .menu_top .logo-search img {
+        width: 40px; /* Giảm kích thước logo */
+        height: auto;
+    }
+
+    /* Menu Middle */
+    .menu_middle {
+        display: none; /* Ẩn menu ngang mặc định */
+        flex-direction: column; /* Menu dọc khi hiển thị */
+        background-color: #333; /* Màu nền menu */
+        width: 100%; /* Chiếm toàn bộ chiều rộng */
+        padding: 10px 0;
+    }
+
+    .menu_middle.active {
+        display: flex; /* Hiển thị menu khi toggle */
+    }
+
+    .menu_middle ul {
+        flex-direction: column; /* Menu dọc */
+        gap: 0; /* Loại bỏ khoảng cách giữa các mục */
+    }
+
+    .menu_middle ul a {
+        padding: 15px 20px; /* Tăng khoảng cách bên trong */
+        font-size: 16px; /* Giảm kích thước chữ */
+        text-align: left; /* Căn trái nội dung */
+        border-bottom: 1px solid #444; /* Đường viền dưới mỗi mục */
+    }
+
+    .menu_middle ul a:hover {
+        background-color: #444; /* Màu nền khi hover */
+    }
+
+    /* Submenu */
+    .sub_menu_content {
+        display: none; /* Ẩn submenu mặc định */
+        flex-direction: column; /* Submenu dọc */
+        background-color: #444; /* Màu nền submenu */
+        padding: 0;
+        margin: 0;
+    }
+
+    .sub_menu.active .sub_menu_content {
+        display: flex; /* Hiển thị submenu khi được kích hoạt */
+    }
+
+    .sub_menu_content a {
+        padding: 10px 20px; /* Khoảng cách bên trong submenu */
+        font-size: 14px; /* Giảm kích thước chữ */
+        border-bottom: 1px solid #555; /* Đường viền dưới mỗi mục submenu */
+    }
+
+    .sub_menu_content a:hover {
+        background-color: #555; /* Màu nền khi hover submenu */
+    }
+
+  /* Nút toggle menu */
+  .menu-toggle {
+    display: block; /* Hiển thị nút toggle */
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+    margin-right: 10px; /* Khoảng cách giữa nút toggle và thanh search bar */
+    margin-left: 0;
+    margin-top:50px;
+    display: flex;
+    align-items: center;
+    position: relative; /* Đảm bảo nút toggle không bị đẩy sang phải */
+    order: -1; /* Đưa nút toggle lên trước các phần tử khác trong flexbox */
+}
+
+/* Đảm bảo logo-search và menu-toggle nằm trên cùng một dòng */
+    .menu_top {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start; /* Căn các phần tử sang bên trái */
+        background-color: #333;
+        padding: 10px;
+        gap: 10px; /* Khoảng cách giữa các phần tử */
+    }
+
+    .menu_top .logo-search {
+        display: flex;
+        align-items: center;
+        gap: 10px; /* Khoảng cách giữa logo và thanh search bar */
+        flex-grow: 1; /* Đẩy thanh search bar chiếm không gian còn lại */
+    }
+    
+    .menu_top .logo-search form {
+        display: flex;
+        align-items: center;
+        border-radius: 30px;
+        width: 100%; /* Chiếm toàn bộ chiều rộng còn lại */
+        max-width: 400px; /* Giới hạn chiều rộng tối đa */
+        height: 40px;
+        background-color: #222;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        overflow: hidden;
+    }
+    
+    .menu_top .logo-search input {
+        width: 85%; /* Chiếm 85% chiều rộng của form */
+        height: 100%;
+        border: none;
+        border-radius: 30px 0 0 30px;
+        padding: 0 10px;
+        background-color: #333;
+        color: #fff;
+        font-size: 14px;
+        box-sizing: border-box;
+        outline: none;
+    }
+    
+    .menu_top .logo-search button {
+        width: 15%; /* Chiếm 15% chiều rộng của form */
+        height: 100%;
+        border: none;
+        border-radius: 0 30px 30px 0;
+        background-color: #555;
+        color: #fff;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 16px;
+        transition: background-color 0.3s ease;
+    }
+    
+    .menu_top .logo-search button:hover {
+        background-color: #777;
+    }
+
+    /* Menu Middle */
+    .menu-toggle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: transparent;
+        border: none;
+        color: #fff;
+        font-size: 24px;
+        cursor: pointer;
+        position: relative;
+        z-index: 1100; /* Đảm bảo nút luôn nằm trên cùng */
+    }
+    
+    /* Khi menu được mở, thay đổi biểu tượng nút toggle */
+    .menu_middle.active + .menu-toggle i::before {
+        content: "\f00d"; /* Font Awesome icon for "X" */
+        font-family: "Font Awesome 5 Free"; /* Font Awesome font */
+        font-weight: 900;
+    }
+    .menu_middle {
+        display: none; /* Ẩn menu mặc định */
+        flex-direction: column; /* Menu dọc */
+        background-color: #333; /* Màu nền menu */
+        width: 70%; /* Chiếm 70% chiều rộng màn hình */
+        height: 100vh; /* Chiều cao toàn màn hình */
+        position: fixed; /* Cố định menu ở bên trái */
+        top: 0;
+        left: 0;
+        z-index: 1000;
+        padding: 20px;
+        box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5); /* Hiệu ứng đổ bóng */
+        overflow-y: auto; /* Cho phép cuộn dọc nếu nội dung quá dài */
+        transform: translateX(-100%); /* Ẩn menu ra ngoài màn hình */
+        transition: transform 0.3s ease; /* Hiệu ứng trượt menu */
+    }
+    
+    .menu_middle.active {
+        display: flex; /* Hiển thị menu khi toggle */
+        transform: translateX(0); /* Trượt menu vào màn hình */
+    }
+    
+    /* Căn menu hoàn toàn bên trái */
+    .menu_middle ul {
+        flex-direction: column; /* Menu dọc */
+        gap: 0; /* Loại bỏ khoảng cách giữa các mục */
+        padding: 0;
+        margin: 0;
+        text-align: left; /* Căn nội dung menu sang bên trái */
+    }
+    
+    .menu_middle ul a {
+        padding: 15px 20px; /* Tăng khoảng cách bên trong */
+        font-size: 16px; /* Giảm kích thước chữ */
+        text-align: left; /* Căn nội dung sang bên trái */
+        border-bottom: 1px solid #444; /* Đường viền dưới mỗi mục */
+        color: #fff;
+    }
+    
+    .menu_middle ul a:hover {
+        background-color: #444; /* Màu nền khi hover */
+    }
+    
+    /* Submenu */
+    .sub_menu_content {
+        display: none; /* Ẩn submenu mặc định */
+        flex-direction: column; /* Submenu dọc */
+        background-color: #444; /* Màu nền submenu */
+        padding: 0;
+        margin: 0;
+    }
+    .sub_menu.active .sub_menu_content {
+        display: flex; /* Hiển thị submenu khi được kích hoạt */
+    }
+    .sub_menu_content a {
+        padding: 10px 20px; /* Khoảng cách bên trong submenu */
+        font-size: 14px; /* Giảm kích thước chữ */
+        border-bottom: 1px solid #555; /* Đường viền dưới mỗi mục submenu */
+    }
+    
+    .sub_menu_content a:hover {
+        background-color: #555; /* Màu nền khi hover submenu */
+    }
+    
+    /* Nút Login (Ẩn mặc định và hiển thị ở cuối menu khi mở) */
+    .menu_top .login {
+        display: none; /* Ẩn nút login khi ở chế độ responsive */
+    }
+    
+    .menu_middle .login {
+        margin-top: auto; /* Đẩy nút login xuống cuối menu */
+        padding-top: 20px;
+        border-top: 1px solid #444; /* Đường viền trên nút login */
+    }
+    
+    .menu_middle .login a {
+        display: block;
+        padding: 15px 20px;
+        font-size: 16px;
+        color: #fff;
+        text-decoration: none;
+        text-align: left; /* Căn nội dung sang bên trái */
+    }
+    
+    .menu_middle .login a:hover {
+        background-color: #444;
+    }
+
+    /* Nút Login */
+    .menu_middle .login {
+        margin-top: 20px; /* Khoảng cách phía trên */
+    }
+
+    .menu_middle .login a {
+        display: block;
+        padding: 15px 20px;
+        font-size: 16px;
+        color: #fff;
+        text-decoration: none;
+        border-bottom: 1px solid #444;
+    }
+
+    .menu_middle .login a:hover {
+        background-color: #444;
+    }
+    .play-container {
+        width: 95%;
+        min-height: 300px;
+    }
+
+    .play-container .play-text h2 {
+        font-size: 1.5rem;
+    }
+
+    .play-container .play-text a i {
+        font-size: 1.2rem;
+    }
+    .movie-decription {
+        width: 95%;
+        min-height: 100px;
+        padding: 1rem;
+    }
+}
