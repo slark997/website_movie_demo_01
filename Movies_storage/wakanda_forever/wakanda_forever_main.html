@@ -59,7 +59,7 @@
             </nav>
         </header>
         <!--movie_page_box-->
-        <div class="play-container" style="background-image: url('../../Pictures/background/wakanda_forever_background.jpg');">
+        <div class="play-container" style="background-image: url('${movie.poster_url}');">
             <div class="play-text">
                 <a href="../../Movies_storage/wakanda_forever/wakanda_forever_movie.html"><h2>Black Panther: Wakanda Forever </h2><i class="fas fa-play"></i></a>
                 <div class="rating">
@@ -95,6 +95,24 @@
                 </ul>
             </div>
         </div>
+        <h1>${movie.name}</h1>
+        <img src="" alt="${movie.name}">
+        <p>${movie.content}</p>
+        <p><strong>Time:</strong> ${movie.time}</p>
+        <p><strong>Quality:</strong> ${movie.quality}</p>
+        <p><strong>Language:</strong> ${movie.lang}</p>
+        <p><strong>Director:</strong> ${movie.director.join(', ')}</p>
+        <p><strong>Actors:</strong> ${movie.actor.join(', ')}</p>
+        <h2>Watch Now</h2>
+        ${movie.episodes?.map(episode => `
+            <div>
+                <h3>${episode.server_name}</h3>
+                ${episode.server_data.map(data => `
+                    <a href="${data.link_embed}" target="_blank">${data.name}</a>
+                `).join('')}
+            </div>
+        `).join('') || '<p>No episodes available.</p>'}
+    </main>
             <div class="footer-dark">
                 <footer>
                     <div class="container">

@@ -1,0 +1,49 @@
+<!-- filepath: e:\Laptrinhweb\Movies\common\menu.html -->
+<header>
+    <nav>
+        <div class="container">
+            <div class="menu_top">
+                <div class="logo-search">
+                    <a href="../../index.html"><img src="../../Pictures/Logo/Logo.png" alt="logo"></a>
+                    <form action="../../search.php" method="POST">
+                        <input type="text" name="search" placeholder="Search...">
+                        <button type="submit" name="submit-search"><i class="fas fa-search"></i></button>
+                    </form>
+                </div>
+                <div class="login">
+                    <a href="../../login_and_register/login_register.html">Login <i class="fas fa-sign-in-alt"></i></a>
+                </div>
+                <button class="menu-toggle" onclick="toggleMenu()">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+            <div class="menu_middle">
+                <ul>
+                    <a href="../../index.html"><i class="fas fa-home"></i> Home</a>
+                    <a href="../../movies.html">Movies</a>
+                    <a href="../../tvshows.html">TV Shows</a>
+                    <div class="sub_menu">
+                        <a href="#" onclick="toggleSubMenu(event)">Thể Loại <i class="fas fa-chevron-down"></i></a>
+                        <div class="sub_menu_content">
+                            <a href="../../Catagories/action.html">Hành Động</a>
+                            <a href="../../Catagories/Aventure.html">Phiêu Lưu</a>
+                            <a href="../../Catagories/comedy.html">Hài Kịch</a>
+                            <a href="../../Catagories/school.html">Học Đường</a>
+                            <a href="../../Catagories/mistery.html">Bí Ẩn</a>
+                            <a href="../../Catagories/documentary.html">Tài Liệu</a>
+                            <a href="../../Catagories/martialart.html">Võ Thuật</a>
+                            <a href="../../Catagories/horror.html">Kinh Dị</a>
+                            <a href="../../Catagories/sciene.html">Khoa Học</a>
+                            <a href="../../Catagories/thriller.html">Giật Gân</a>
+                            <a href="../../Catagories/musical.html">Âm Nhạc</a>
+                            <a href="../../Catagories/Anime.html">Anime</a>
+                            <a href="../../Catagories/fantasy.html">Viễn Tưởng</a>
+                            <a href="../../Catagories/cartoon.html">Hoạt Hình</a>
+                            <a href="../../Catagories/romance.html">Lãng Mạn</a>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>

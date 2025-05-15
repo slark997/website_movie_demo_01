@@ -810,28 +810,70 @@ li{
     }
 
     /* Submenu */
-    .sub_menu_content {
-        display: none; /* Ẩn submenu mặc định */
-        flex-direction: column; /* Submenu dọc */
-        background-color: #444; /* Màu nền submenu */
-        padding: 0;
-        margin: 0;
-    }
+/* Submenu container */
+.sub_menu_content {
+    display: none; /* Hide the submenu by default */
+    position: absolute;
+    background-color: #1c1c1c;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    width: 400px; /* Set a fixed width for the submenu */
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); /* Create a responsive grid */
+    gap: 10px; /* Add spacing between items */
+    display: grid; /* Use grid layout */
+}
 
-    .sub_menu.active .sub_menu_content {
-        display: flex; /* Hiển thị submenu khi được kích hoạt */
-    }
+/* Submenu items */
+/* Submenu container */
+.sub_menu_content {
+    display: none; /* Hide the submenu by default */
+    position: absolute;
+    background-color: #1c1c1c;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    width: 100%; /* Ensure the submenu spans the full width */
+    max-width: 600px; /* Limit the maximum width */
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Create a responsive grid */
+    gap: 10px; /* Add spacing between items */
+    display: grid; /* Use grid layout */
+    justify-content: center; /* Center-align the grid items */
+}
 
-    .sub_menu_content a {
-        padding: 10px 20px; /* Khoảng cách bên trong submenu */
-        font-size: 14px; /* Giảm kích thước chữ */
-        border-bottom: 1px solid #555; /* Đường viền dưới mỗi mục submenu */
-    }
+/* Submenu items */
+.sub_menu_content {
+    display: grid; /* Use grid layout */
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Responsive grid */
+    gap: 10px; /* Add spacing between items */
+    background-color: #1c1c1c;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
 
-    .sub_menu_content a:hover {
-        background-color: #555; /* Màu nền khi hover submenu */
-    }
+/* Submenu items */
+.sub_menu_content a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 3px;
+    background-color: #252525;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 14px;
+}
 
+.sub_menu_content a:hover {
+    background-color: #444;
+}
   /* Nút toggle menu */
   .menu-toggle {
     display: block; /* Hiển thị nút toggle */

@@ -1,30 +1,289 @@
 [
   {
-    "title": "Black Panther: Wakanda Forever",
-    "slug": "wakanda-forever",
-    "background_url": "https://i.imgur.com/XkzLgLX.jpg",
-    "poster_url": "https://i.imgur.com/fakeposter.jpg",
-    "description": "Nữ hoàng Ramonda, Shuri, M’Baku... tạo ra một con đường mới cho Wakanda.",
-    "genres": ["Hành Động", "Phiêu Lưu", "Viễn Tưởng"],
-    "release_date": "Tháng 10 Ngày 11 Năm 2022",
-    "nation": "Mỹ",
-    "director": "Ryan Coogler",
-    "duration": "161 phút",
-    "cast": "Letitia Wright, Lupita Nyong'o, Danai Gurira, Angela Bassett",
-    "video_url": "https://vip.opstream16.com/share/018a6e33594cb40f782e50f71cf3c87f"
+  "status": true,
+  "msg": "",
+  "movie": {
+    "tmdb": {
+      "type": "movie",
+      "id": "505642",
+      "season": null,
+      "vote_average": 7.1,
+      "vote_count": 6768
+    },
+    "imdb": {
+      "id": "tt9114286"
+    },
+    "created": {
+      "time": "2022-05-13T07:57:21.000Z"
+    },
+    "modified": {
+      "time": "2025-04-17T12:50:05.000Z"
+    },
+    "_id": "627e0f619e983cdfde34b6c3",
+    "name": "Chiến Binh Báo Đen 2: Wakanda Bất Diệt",
+    "origin_name": "Black Panther 2: Wakanda Forever",
+    "content": "\u003Cp\u003EBlack Panther: Wakanda Forever của Marvel Studios sẽ tiếp tục khám phá thế giới có một không hai của Wakanda và tất cả các nhân vật phong phú và đa dạng đã được giới thiệu trong phần phim đầu tiên\u003C/p\u003E",
+    "type": "single",
+    "status": "completed",
+    "thumb_url": "https://img.ophim.live/uploads/movies/chien-binh-bao-den-2-wakanda-bat-diet-thumb.jpg",
+    "poster_url": "https://img.ophim.live/uploads/movies/chien-binh-bao-den-2-wakanda-bat-diet-poster.jpg",
+    "is_copyright": false,
+    "sub_docquyen": true,
+    "chieurap": true,
+    "trailer_url": "https://www.youtube.com/watch?v=EXoMQfcj3hg",
+    "time": "152 Phút",
+    "episode_current": "Full",
+    "episode_total": "1",
+    "quality": "HD",
+    "lang": "Vietsub",
+    "notify": "",
+    "showtimes": "",
+    "slug": "chien-binh-bao-den-2-wakanda-bat-diet",
+    "year": 2022,
+    "view": 2029,
+    "actor": [
+      "Martin Freeman",
+      "Letitia Wright",
+      "Lupita Nyongo"
+    ],
+    "director": [
+      "Ryan Coogler"
+    ],
+    "category": [
+      {
+        "id": "620a21b2e0fc277084dfd0c5",
+        "name": "Hành Động",
+        "slug": "hanh-dong"
+      },
+      {
+        "id": "620a2282e0fc277084dfd435",
+        "name": "Viễn Tưởng",
+        "slug": "vien-tuong"
+      }
+    ],
+    "country": [
+      {
+        "id": "620a231fe0fc277084dfd7ce",
+        "name": "Âu Mỹ",
+        "slug": "au-my"
+      }
+    ]
   },
-  {
-    "title": "Người Nhện: Du Hành Vũ Trụ Nhện",
-    "slug": "nguoi-nhen-du-hanh-vu-tru-nhen",
-    "background_url": "https://i.imgur.com/SpiderManBackground.jpg",
-    "poster_url": "https://i.imgur.com/SpiderManPoster.jpg",
-    "description": "Miles Morales bước vào một cuộc phiêu lưu mới trong đa vũ trụ.",
-    "genres": ["Hoạt Hình", "Phiêu Lưu", "Hành Động"],
-    "release_date": "Tháng 6 Ngày 2 Năm 2023",
-    "nation": "Mỹ",
-    "director": "Joaquim Dos Santos",
-    "duration": "140 phút",
-    "cast": "Shameik Moore, Hailee Steinfeld, Oscar Isaac",
-    "video_url": "https://vip.opstream11.com/share/425e4714036e70b93d1683fc33b757e6"
-  }
+  "episodes": [
+    {
+      "server_name": "Vietsub #1",
+      "server_data": [
+        {
+          "name": "Full",
+          "slug": "full",
+          "filename": "Black.Panther.Wakanda.Forever.2022.m1080p.BluRay.DD5.1x264-XMD",
+          "link_embed": "https://vip.opstream16.com/share/018a6e33594cb40f782e50f71cf3c87f",
+          "link_m3u8": "https://vip.opstream16.com/20230131/30362_f51ce173/index.m3u8"
+        }
+      ]
+    },
+    {
+      "server_name": "CAM #1",
+      "server_data": [
+        {
+          "name": "Full",
+          "slug": "full",
+          "filename": "Black Panther Wakanda Forever 2022 1080p HDCAM X264 Will1869-muxed",
+          "link_embed": "https://vip.opstream10.com/share/ededc7e1ce8f57bb859089b9360ed86f",
+          "link_m3u8": "https://vip.opstream10.com/20221118/25452_73bf5b67/index.m3u8"
+        }
+      ]
+    }
+  ]
+},
+{
+  "status": true,
+  "msg": "",
+  "movie": {
+    "tmdb": {
+      "type": null,
+      "id": "",
+      "season": null,
+      "vote_average": 0,
+      "vote_count": 0
+    },
+    "imdb": {
+      "id": ""
+    },
+    "created": {
+      "time": "2022-03-16T12:19:44.118Z"
+    },
+    "modified": {
+      "time": "2023-08-06T08:06:36.000Z"
+    },
+    "_id": "6231d5e03c735a9a446ddfad",
+    "name": "Người Nhện: Vũ Trụ Mới",
+    "origin_name": "Spider-Man: Into the Spider-Verse",
+    "content": "\u003Cp\u003EMiles Teen Morales trở thành người nhện của vũ trụ của mình, và phải tham gia với năm cá nhân chạy bằng nhện từ các khía cạnh khác để ngăn chặn mối đe dọa cho tất cả các thực tế.\u003C/p\u003E",
+    "type": "hoathinh",
+    "status": "completed",
+    "thumb_url": "https://img.ophim.live/uploads/movies/nguoi-nhen-vu-tru-moi-thumb.jpg",
+    "is_copyright": false,
+    "trailer_url": "",
+    "time": "Đang cập nhật",
+    "episode_current": "Full",
+    "episode_total": "1",
+    "quality": "HD",
+    "lang": "Vietsub",
+    "notify": "",
+    "showtimes": "",
+    "slug": "nguoi-nhen-vu-tru-moi",
+    "year": 2018,
+    "view": 357,
+    "actor": [
+      ""
+    ],
+    "director": [
+      ""
+    ],
+    "category": [
+      {
+        "id": "620a21b2e0fc277084dfd0c5",
+        "name": "Hành Động",
+        "slug": "hanh-dong"
+      },
+      {
+        "id": "620a2282e0fc277084dfd435",
+        "name": "Viễn Tưởng",
+        "slug": "vien-tuong"
+      },
+      {
+        "id": "620a229be0fc277084dfd4dd",
+        "name": "Khoa Học",
+        "slug": "khoa-hoc"
+      },
+      {
+        "id": "620e4c0b6ba8271c5eef05a8",
+        "name": "Gia Đình",
+        "slug": "gia-dinh"
+      }
+    ],
+    "country": [
+      {
+        "id": "620a231fe0fc277084dfd7ce",
+        "name": "Âu Mỹ",
+        "slug": "au-my"
+      }
+    ],
+    "chieurap": false,
+    "poster_url": "https://img.ophim.live/uploads/movies/nguoi-nhen-vu-tru-moi-poster.jpg",
+    "sub_docquyen": false
+  },
+  "episodes": [
+    {
+      "server_name": "Vietsub #1",
+      "server_data": [
+        {
+          "name": "1",
+          "slug": "1",
+          "filename": "Người Nhện: Vũ Trụ Mới",
+          "link_embed": "https://vip.opstream11.com/share/71e09b16e21f7b6919bbfc43f6a5b2f0",
+          "link_m3u8": "https://vip.opstream11.com/20220315/2042_aa34b483/index.m3u8"
+        }
+      ]
+    }
+  ]
+},
+{
+  "status": true,
+  "msg": "",
+  "movie": {
+    "tmdb": {
+      "type": null,
+      "id": "",
+      "season": null,
+      "vote_average": 0,
+      "vote_count": 0
+    },
+    "imdb": {
+      "id": ""
+    },
+    "created": {
+      "time": "2022-03-13T12:53:01.235Z"
+    },
+    "modified": {
+      "time": "2023-01-14T12:11:56.000Z"
+    },
+    "_id": "622de92dc3924897e5fd3bb0",
+    "name": "Người Nhện: Không Còn Nhà",
+    "origin_name": "Spider-Man: No Way Home",
+    "content": "\u003Cp\u003EBộ phim tiếp nối sự kiện của phần Spider-man: Far From Home khi phản diện Mysterio đã tiết lộ danh tính thực sự của người nhện là Peter Parker, Spiderman đã phải đối diện với nhiều lời khen chê trái chiều đến từ công chúng, việc này không những làm ảnh hưởng đến cuộc sống của Peter mà còn khiến Dì May, cậu bạn Ned và người yêu MJ bị liên lụy. Vì vậy Peter đã tìm đến Doctor Strange để nhờ ông tìm cách giải quyết chuyện này. Tuy nhiên trong quá trình thi triển thuật đảo ngược thời gian, do nhanh mồm nhanh miệng mà Peter đã khiến việc đọc phép gặp lỗi và mở ra những cánh cửa đưa các tên ác nhân ở các vũ trụ khác đến nơi cậu sinh sống. Liệu rằng Peter có thể sửa chữa được lỗi lầm của mình và điều gì đang chờ đợi cậu ở phía trước? Phim bám sát thuyết đa vũ trụ, cho phép tồn tại các chiều không gian song song. Mang đến trải nghiệm tuyệt vời cho khán giả khi thấy những nhân vật mình yêu thích xuất hiện, từ chính diện cho tới phản diện.\u003C/p\u003E",
+    "type": "single",
+    "status": "completed",
+    "thumb_url": "https://img.ophim.live/uploads/movies/nguoi-nhen-khong-con-nha-thumb.jpg",
+    "is_copyright": false,
+    "trailer_url": "https://www.youtube.com/watch?v=JfVOs4VSpmA",
+    "time": "140 phút",
+    "episode_current": "Full",
+    "episode_total": "1",
+    "quality": "FHD",
+    "lang": "Vietsub",
+    "notify": "",
+    "showtimes": "",
+    "slug": "nguoi-nhen-khong-con-nha",
+    "year": 2021,
+    "view": 1380,
+    "actor": [
+      "Zendaya",
+      "  Tom Holland",
+      "  Jon Favreau",
+      "  Benedict Cumberbatch",
+      "  Angourie Rice"
+    ],
+    "director": [
+      "Jon Watts"
+    ],
+    "category": [
+      {
+        "id": "620a21b2e0fc277084dfd0c5",
+        "name": "Hành Động",
+        "slug": "hanh-dong"
+      },
+      {
+        "id": "620a2282e0fc277084dfd435",
+        "name": "Viễn Tưởng",
+        "slug": "vien-tuong"
+      },
+      {
+        "id": "620a2293e0fc277084dfd489",
+        "name": "Phiêu Lưu",
+        "slug": "phieu-luu"
+      },
+      {
+        "id": "620f84d291fa4af90ab6b3f4",
+        "name": "Bí ẩn",
+        "slug": "bi-an"
+      }
+    ],
+    "country": [
+      {
+        "id": "620a231fe0fc277084dfd7ce",
+        "name": "Âu Mỹ",
+        "slug": "au-my"
+      }
+    ],
+    "chieurap": false,
+    "poster_url": "https://img.ophim.live/uploads/movies/nguoi-nhen-khong-con-nha-poster.jpg",
+    "sub_docquyen": false
+  },
+  "episodes": [
+    {
+      "server_name": "Vietsub #1",
+      "server_data": [
+        {
+          "name": "Full",
+          "slug": "full",
+          "filename": "Người Nhện_ Không còn nhà",
+          "link_embed": "https://vip.opstream16.com/share/4dc78ee9d84aeec573c4179447b5f17c",
+          "link_m3u8": "https://vip.opstream16.com/20230114/29200_a1c84aab/index.m3u8"
+        }
+      ]
+    }
+  ]
+}
 ]

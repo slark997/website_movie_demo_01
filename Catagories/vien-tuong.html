@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viễn Tưởng</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <div class="menu_top">
+                    <div class="logo-search">
+                        <a href="../index.html"><img src="../Pictures/Logo/Logo.png" alt="logo"></a>
+                        <form action="../search.php" method="POST">
+                            <input type="text" name="search" placeholder="Search...">
+                            <button type="submit" name="submit-search"><i class="fas fa-search"></i></button>
+                        </form>
+                    </div>
+                    <div class="login">
+                        <a href="../login_and_register/login_register.html">Login <i class="fas fa-sign-in-alt"></i></a>
+                    </div>
+                    <button class="menu-toggle" onclick="toggleMenu()">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+                <div class="menu_middle">
+                    <ul>
+                        <a href="../index.html"><i class="fas fa-home"></i> Home</a>
+                        <a href="../movies.html">Movies</a>
+                        <a href="../tvshows.html">TV Shows</a>
+                        <div class="sub_menu">
+                            <a href="#" onclick="toggleSubMenu(event)">Thể Loại <i class="fas fa-chevron-down"></i></a>
+                            <div class="sub_menu_content">
+                                
+                                    <a href="../Catagories/hanh-dong.html">Hành Động</a>
+                                
+                                    <a href="../Catagories/vien-tuong.html">Viễn Tưởng</a>
+                                
+                                    <a href="../Catagories/khoa-hoc.html">Khoa Học</a>
+                                
+                                    <a href="../Catagories/gia-dinh.html">Gia Đình</a>
+                                
+                                    <a href="../Catagories/phieu-luu.html">Phiêu Lưu</a>
+                                
+                                    <a href="../Catagories/bi-an.html">Bí ẩn</a>
+                                
+                            </div>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h1>Viễn Tưởng</h1>
+        <div class="movies">
+            
+                <div class="movie">
+                    <img src="https://img.ophim.live/uploads/movies/chien-binh-bao-den-2-wakanda-bat-diet-poster.jpg" alt="Chiến Binh Báo Đen 2: Wakanda Bất Diệt">
+                    <h2>Chiến Binh Báo Đen 2: Wakanda Bất Diệt</h2>
+                    <a href="../Movies_storage/chien-binh-bao-den-2-wakanda-bat-diet/chien-binh-bao-den-2-wakanda-bat-diet_main.html">Watch Now</a>
+                </div>
+            
+                <div class="movie">
+                    <img src="https://img.ophim.live/uploads/movies/nguoi-nhen-vu-tru-moi-poster.jpg" alt="Người Nhện: Vũ Trụ Mới">
+                    <h2>Người Nhện: Vũ Trụ Mới</h2>
+                    <a href="../Movies_storage/nguoi-nhen-vu-tru-moi/nguoi-nhen-vu-tru-moi_main.html">Watch Now</a>
+                </div>
+            
+                <div class="movie">
+                    <img src="https://img.ophim.live/uploads/movies/nguoi-nhen-khong-con-nha-poster.jpg" alt="Người Nhện: Không Còn Nhà">
+                    <h2>Người Nhện: Không Còn Nhà</h2>
+                    <a href="../Movies_storage/nguoi-nhen-khong-con-nha/nguoi-nhen-khong-con-nha_main.html">Watch Now</a>
+                </div>
+            
+        </div>
+    </main>
+    <footer>
+        <div class="footer-dark">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Services</h3>
+                        <ul>
+                            <li><a href="#">Web design</a></li>
+                            <li><a href="#">Development</a></li>
+                            <li><a href="#">Hosting</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>About</h3>
+                        <ul>
+                            <li><a href="#">Company</a></li>
+                            <li><a href="#">Team</a></li>
+                            <li><a href="#">Careers</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 item text">
+                        <h3>Company Name</h3>
+                        <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+    
