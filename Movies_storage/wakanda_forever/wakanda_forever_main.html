@@ -86,9 +86,9 @@
                 <ul>
                     <li><strong>Ngôn ngữ</strong>${movie.lang}</li>
                     <li><strong>Ngày Chiếu:</strong> Tháng 10 Ngày 11 Năm 2022</li>
-                    <li><strong>Thể Loại:</strong> Hành Động, Phiêu Lưu, Viễn Tưởng</li>
-                    <li><strong>Quốc Gia:</strong> Mỹ</li>
-                    <li><strong>Đạo Diễn:</strong>  ${movie.director.join</li>
+                    <li><strong>Thể Loại:</strong> ${movie.category.join(', ')}</li>
+                    <li><strong>Quốc Gia:</strong> ${movie.country.join(', ')}</li>
+                    <li><strong>Đạo Diễn:</strong>  ${movie.director.join(', ')}</li>
                     <li><strong>Thời lượng:</strong> ${movie.time}</li>
                     <li><strong>Cast:</strong> ${movie.actor.join(', ')}</li>
                 </ul>
