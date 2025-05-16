@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Black Panther: wakanda Forever</title>
-        <link rel="stylesheet" type="text/css" href="../../css/style.css">
+        <link rel="stylesheet" type="text/css" href="../../css/style.css">     
         <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     </head>
@@ -15,14 +15,14 @@
                 <div class="container">
                     <div class="menu_top">
                         <div class="logo-search">
-                            <a href="../../index.html"><img src="../../Pictures/Logo/Logo.png" alt="logo"></a>
+                            <a href="../../mainpage.html"><img src="../../Pictures/Logo/Logo.png" alt="logo"></a>
                             <form action="search.php" method="POST">
                                 <input type="text" name="search" placeholder="Search...">
                                 <button type="submit" name="submit-search"><i class="fas fa-search"></i></button>
                             </form>
                         </div>
                         <div class="login">
-                            <a href="../../login_and_register/login_register.html">Login <i class="fas fa-sign-in-alt"></i></a>
+                            <a href="../login_and_register/login_register.html">Login <i class="fas fa-sign-in-alt"></i> </a>
                         </div>
                         <button class="menu-toggle" onclick="toggleMenu()">
                           <i class="fas fa-bars"></i>
@@ -58,56 +58,31 @@
                 </div>
             </nav>
         </header>
-        <div class="play-container">
-            <iframe class="video-player" id="video" allowfullscreen width="100%" height="100%" frameborder="1" scrolling="no"allow="encrypted-media"></iframe>
+        <div class="play-container">          
+            <div class="video-player">
+              <iframe src="https://vip.opstream10.com/share/ededc7e1ce8f57bb859089b9360ed86f"
+                      width="100%" height="100%" frameborder="1" scrolling="no" allow="autoplay; encrypted-media"
+                      allowfullscreen>
+              </iframe>
+            </div>
         </div>
-        <div class="movie-decription">
-            <h1 id="title"></h1>
-            <div id="tags"></div>
-            <p id="description"></p>
-            <ul>
-                <li><strong>Ngày Chiếu:</strong> <span id="release_date"></span></li>
-                <li><strong>Quốc Gia:</strong> <span id="nation"></span></li>
-                <li><strong>Đạo Diễn:</strong> <span id="director"></span></li>
-                <li><strong>Thời Lượng:</strong> <span id="duration"></span></li>
-                <li><strong>Cast:</strong> <span id="cast"></span></li>
-            </ul>
-        </div>
-        <div class="footer-dark">
-      <footer>
-          <div class="container">
-              <div class="row">
-                  <div class="col-sm-6 col-md-3 item">
-                      <h3>Services</h3>
-                      <ul>
-                          <li><a href="#">Web design</a></li>
-                          <li><a href="#">Development</a></li>
-                          <li><a href="#">Hosting</a></li>
-                      </ul>
-                  </div>
-                  <div class="col-sm-6 col-md-3 item">
-                      <h3>About</h3>
-                      <ul>
-                          <li><a href="#">Company</a></li>
-                          <li><a href="#">Team</a></li>
-                          <li><a href="#">Careers</a></li>
-                      </ul>
-                  </div>
-                  <div class="col-md-6 item text">
-                      <h3>Company Name</h3>
-                      <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo.</p>
-                  </div>
-                  <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
-              </div>
-              <p class="copyright">Company Name © 2018</p>
+        <div class="movie-info">
+            <h1>Chiến Binh Báo Đen: Wakanda Bất Diệt</h1>
+            <img src="https://phim.nguonc.com/public/images/Film/xDMIl84Qo5Tsu62c9DGWhmPI67A.jpg" alt="Poster phim" style="width: 200px; border-radius: 8px; margin-bottom: 1rem;">
+            <p><strong>Tên gốc:</strong> Black Panther: Wakanda Forever</p>
+            <p><strong>Thời lượng:</strong> 162 phút</p>
+            <p><strong>Chất lượng:</strong> HD</p>
+            <p><strong>Ngôn ngữ:</strong> Vietsub</p>
+            <p><strong>Đạo diễn:</strong> Ryan Coogler</p>
+            <p><strong>Diễn viên:</strong> Letitia Wright, Lupita Nyong'o, Danai Gurira</p>
+            <p><strong>Thể loại:</strong> Hành Động, Phiêu Lưu, Khoa Học Viễn Tưởng</p>
+            <p><strong>Mô tả:</strong> Nữ hoàng Ramonda, Shuri, M’Baku, Okoye và Dora Milaje chiến đấu để bảo vệ quốc gia của họ khỏi sự can thiệp của các thế lực thế giới sau cái chết của Vua T’Challa...</p>
           </div>
-      </footer>
-    </div>
-<!--javascript-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
-<script src="../../script/script.js" defer></script>
-<script src="../../script/responsive.js"></script>
-<script src="../../script/movies.js"></script>
+            <!--javascript-->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+            <script src="../../script/script.js" defer></script>
+            <script src="../../script/responsive.js"></script>
+            <script src="../../script/movies.js"></script>
 </body>
-</html>       
+</html>
